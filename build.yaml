@@ -14,6 +14,9 @@
 ---
 include:
 
+# Settings reset
+  - board: "nice_nano//zmk"
+    shield: settings_reset
 # Hillside 46
 #   Comment out below if you do not have this board, to save build time
   - board: "nice_nano//zmk"
@@ -34,4 +37,6 @@ include:
 #    shield: hillside52_left
 #  - board: "nice_nano//zmk"
 #    shield: hillside52_right
+
+
 
