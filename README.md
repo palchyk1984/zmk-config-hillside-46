@@ -19,10 +19,11 @@ The keymap used is inspired by:
 ...and can be found here:
 - [./config/hillside46.keymap](./config/hillside46.keymap)
 
+This file is the single source of truth for the active layout used by firmware
+builds and editor-driven remaps.
+
 A keymap editor can be found here:
 - [Keymap editor](https://nickcoutsos.github.io/keymap-editor)
-
-There is also a [JSON](./config/hillside-46.json) for [Keyboard layout editor](http://www.keyboard-layout-editor.com/#/)
 
 Pushing a change will trigger a build and the firmware will be available from the Actions tab.
 
@@ -30,3 +31,5 @@ If you want to enable features,
   modify the appropriate ./config/hillside*.conf file.
 
 The Hillside shield definition files should *not* need to be modified and are in ./config/boards/shields.
+The shield folder intentionally does not contain a second keymap file, to avoid
+the editor and firmware build reading different layouts.
