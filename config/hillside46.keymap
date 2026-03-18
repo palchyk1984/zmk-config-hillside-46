@@ -54,7 +54,7 @@
                                      &kp DELETE  &kp BACKSPACE  &kp LEFT_GUI  &lt 2 TAB    &lt 1 ENTER  &kp SPACE  &kp LCTRL  &lt 3 LEFT_ALT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         nav_layer {
@@ -73,7 +73,7 @@
                                                 &trans   &trans     &trans  &trans    &mo 3  &trans  &trans     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         sym_layer {
@@ -92,7 +92,7 @@
                                                  &trans       &trans        &trans  &mo 3    &trans  &trans  &trans        &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         adj_layer {
@@ -111,7 +111,7 @@
                                   &trans   &trans  &trans      &trans    &trans  &trans    &trans        &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
