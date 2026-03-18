@@ -53,10 +53,6 @@
 &kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V       &kp B          &none                                   &none      &kp N      &kp M           &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
                                      &kp DELETE  &kp BACKSPACE  &kp LEFT_GUI  &lt 2 TAB    &lt 1 ENTER  &kp SPACE  &kp LCTRL  &lt 3 LEFT_ALT
             >;
-
-            sensor-bindings =
-                <&inc_dec_kp 0 0>,
-                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         nav_layer {
