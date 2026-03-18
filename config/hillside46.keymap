@@ -53,6 +53,8 @@
 &kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V       &kp B          &none                                   &none      &kp N      &kp M           &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
                                      &kp DELETE  &kp BACKSPACE  &kp LEFT_GUI  &lt 2 TAB    &lt 1 ENTER  &kp SPACE  &kp LCTRL  &lt 3 LEFT_ALT
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         nav_layer {
@@ -70,6 +72,8 @@
 &trans  &kp DE_LT     &kp DE_GT    &kp Copy     &kp Cut  &kp Paste  &trans                   &trans  &none      &kp INS   &none     &none      &none        &none
                                                 &trans   &trans     &trans  &trans    &mo 3  &trans  &trans     &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         sym_layer {
@@ -87,6 +91,8 @@
 &trans  &kp DE_QMARK  &kp DE_MINUS  &kp DE_PLUS  &kp DE_LBKT  &kp DE_LBRC   &trans                   &trans  &kp DE_RBRC   &kp DE_RBKT  &trans        &trans       &trans       &kp DE_EQUAL
                                                  &trans       &trans        &trans  &mo 3    &trans  &trans  &trans        &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         adj_layer {
@@ -104,6 +110,8 @@
 &trans  &kp F1  &kp F2   &kp F3   &kp F4   &none   &bt BT_CLR                    &kp CAPS  &out OUT_BLE  &out OUT_USB  &none         &none  &none  &bootloader
                                   &trans   &trans  &trans      &trans    &trans  &trans    &trans        &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
     };
 };
