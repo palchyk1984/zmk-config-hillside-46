@@ -8,6 +8,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
 #include "keys_de.h"
 
 #define QWERTZ_L 0
@@ -69,10 +70,10 @@
  */
 
             bindings = <
-&trans  &kp TILDE  &kp SQT   &none     &none    &none                                       &kp PG_UP  &kp HOME  &kp UP    &kp END    &none        &trans
-&trans  &kp PIPE   &kp BSLH  &kp FSLH  &none    &none                                       &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp K_CMENU  &trans
-&trans  &kp LT     &kp GT    &kp Copy  &kp Cut  &kp Paste  &trans                   &trans  &none      &kp INS   &none     &none      &none        &none
-                                       &trans   &trans     &trans  &trans    &mo 3  &trans  &trans     &trans
+&trans  &kp TILDE  &kp SQT   &mmv MOVE_UP  &mkp RCLK  &none                                       &kp PG_UP  &kp HOME  &kp UP    &kp END    &none        &trans
+&trans  &kp PIPE   &kp BSLH  &kp FSLH      &none      &none                                       &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp K_CMENU  &trans
+&trans  &kp LT     &kp GT    &kp Copy      &kp Cut    &kp Paste  &trans                   &trans  &none      &kp INS   &none     &none      &none        &none
+                                           &trans     &trans     &trans  &trans    &mo 3  &trans  &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
